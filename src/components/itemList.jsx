@@ -55,11 +55,8 @@ class ItemList extends Component {
         this.setState({name: event.target.value})
     }
 
-    render() { 
-        const {name} = this.state
-        const {value} = this.state
+    render() {
         return ( <div class="centered">
-            <p>{name}{value}</p>
             <form onSubmit={(e) => {this.handleAdd(e)}}>
                 <label>
                     Name:
