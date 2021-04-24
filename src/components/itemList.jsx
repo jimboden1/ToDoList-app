@@ -5,7 +5,7 @@ class ItemList extends Component {
     state = { counters: [
         {id: 0, name:"Brush teeth", value: 4}], 
         id:1,
-        name:"A Thing",
+        name:"",
         value:0
     }
     
