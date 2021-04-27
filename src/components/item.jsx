@@ -9,7 +9,7 @@ class Item extends Component {
         
         return (
             <div>
-                <button onClick ={() => this.props.onDelete(this.props.counter.id)} className="btn btn-danger btn-sm m2">Delete</button>
+                <button onClick ={() => this.props.onDelete(this.props.counter.id)} className="btn btn-danger btn-sm m2 trash">Delete</button>
                 <span className="badge m-2 badge- primary">{this.props.counter.name}</span>
                 <span className={this.getBadgeClasses()}>{this.formatCount()}</span>
                 <button onClick ={() => this.props.onIncrement(this.props.counter)} className="btn btn-secondary btn-sm">+</button>

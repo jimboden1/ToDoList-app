@@ -57,6 +57,7 @@ class ItemList extends Component {
 
     render() {
         return ( <div class="centered">
+            <h1>To-Do List</h1>
             <form onSubmit={(e) => {this.handleAdd(e)}}>
                 <label>
                     Name:
