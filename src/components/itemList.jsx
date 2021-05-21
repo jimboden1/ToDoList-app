@@ -64,7 +64,7 @@ class ItemList extends Component {
                     <input type="text" name='name' onChange={this.handleNameChange} />
                 </label>
                 <label for="value">Importance</label>
-                <select id="value" name= 'value' onChange={this.handleValueChange}>
+                <select id="value" name='value' onChange={this.handleValueChange}>
                     <option value="0">0</option>
                     <option value="1">1</option>
                     <option value="2">2</option>
